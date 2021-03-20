@@ -1,0 +1,296 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: auto;
+  font-family: 'Sacramento', cursive;
+  width: 50%;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin: 0;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #046582 8px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 20px;
+  height: 640px;
+}
+
+.middle-container {
+  background-color: #f9f3f3;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #046582;
+  padding: 20px 0 20px;
+}
+
+.intro {
+  width: 75%;
+  margin: 10px auto;
+}
+
+.julie {
+  margin: 5px auto 5px auto;
+  font-size: 2.5rem;
+}
+
+.footer-link {
+  padding: 0 20px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.attributions {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.info {
+  width: 50%;
+  margin: 100px auto 20px auto;
+  text-align: left;
+}
+
+.info-2 {
+  width: 50%;
+  margin: 100px auto 20px auto;
+  text-align: right;
+}
+
+.julie-img {
+  margin-top: 40px;
+}
+
+.nurturing-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.map-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.activities-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.gardening-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.clouds-img {
+  position: absolute;
+  left: 200px;
+  top: 80px;
+  width: 15%;
+}
+
+.bee-img-1 {
+  position: absolute;
+  right: 210px;
+  top: 550px;
+  width: 7%;
+}
+
+.bee-img-2  {
+  position: absolute;
+  right: 330px;
+  top: 580px;
+  width: 3%;
+}
+
+.bee-img-3 {
+  position: absolute;
+  right: 400px;
+  top: 600px;
+  width: 2%;
+}
+
+.bee-img-4 {
+  position: absolute;
+  left: 450px;
+  width: 3%;
+}
+
+.bee-img-5 {
+  position: absolute;
+  right: 500px;
+  top: 1100px;
+  width: 4%;
+}
+
+.bee-img-6 {
+  position: absolute;
+  left: 650px;
+  top: 2550px;
+  width: 2%;
+}
+
+.bee-img-7 {
+  position: absolute;
+  left: 200px;
+  top: 1400px;
+  width: 2%;
+}
+
+.bee-img-8 {
+  position: absolute;
+  left: 250px;
+  top: 1400px;
+  width: 3%;
+}
+
+.bee-img-9 {
+  position: absolute;
+  right: 200px;
+  top: 1900px;
+  width: 5%;
+}
+
+.tree-img-1 {
+  width: 30%;
+  position: relative;
+  bottom: 30px;
+}
+
+
+
+/*Minimum for images*/
+@media only screen and (max-width: 1315px) {
+  .tree-img-1 {
+    display: none;
+  }
+  .clouds-img {
+    display: none;
+  }
+  .bee-img-1 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+  }
+  .bee-img-2 {
+    display: none;
+  }
+  .bee-img-3 {
+    display: none;
+  }
+  .bee-img-4 {
+    display: none;
+  }
+  .bee-img-5 {
+    display: none;
+  }
+  .bee-img-6 {
+    display: none;
+  }
+  .top-container {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1155px) {
+  .bee-img-1 {
+    position: absolute;
+    top: 150px;
+    right: 250px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .bee-img-7 {
+    display: none;
+  }
+  .bee-img-8 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 874px) {
+  .bee-img-1 {
+    position: absolute;
+    right: 150px;
+    top: 200px;
+  }
+  .bee-img-9 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bee-img-1 {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+  }
+  h1 {
+    color: #66BFBF;
+    font-size: 3.75rem;
+    margin: auto;
+    font-family: 'Sacramento', cursive;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  .bee-img-1 {
+    position: absolute;
+    top: 125px;
+    right: 100px;
+  }
+}
