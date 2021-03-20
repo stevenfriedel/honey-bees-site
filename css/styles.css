@@ -294,3 +294,26 @@ a:hover {
     right: 100px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .bee-img-1 {
+    display: none;
+  }
+  h1 {
+    color: #66BFBF;
+    font-size: 3.75rem;
+    margin: auto;
+    font-family: 'Sacramento', cursive;
+    width: 75%;
+  }
+  .info {
+    width: 90%;
+    margin: 100px auto 20px auto;
+    text-align: left;
+  }
+  .info-2 {
+    width: 90%;
+    margin: 100px auto 20px auto;
+    text-align: right;
+  }
+}
