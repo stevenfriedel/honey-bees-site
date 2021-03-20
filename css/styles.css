@@ -205,12 +205,21 @@ a:hover {
 .tree-img-1 {
   width: 30%;
   position: relative;
-  bottom: 30px;
+  
 }
 
 
 
 /*Minimum for images*/
+@media only screen and (min-width: 1316px) {
+  .top-container {
+    height: 100%;
+  }
+  .bee-img-6 {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 1315px) {
   .tree-img-1 {
     display: none;
