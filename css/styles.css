@@ -297,7 +297,9 @@ a:hover {
 
 @media only screen and (max-width: 500px) {
   .bee-img-1 {
-    display: none;
+    position: absolute;
+    top: 100px;
+    right: 20px;
   }
   h1 {
     color: #66BFBF;
