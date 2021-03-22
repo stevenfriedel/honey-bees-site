@@ -141,25 +141,29 @@ hr {
 }
 
 .nurturing-img {
-  width: 18%;
+  width: 100px;
+  height: 100px;
   float: left;
   margin-right: 30px;
 }
 
 .map-img {
-  width: 18%;
+  width: 100px;
+  height: 100px;
   float: right;
   margin-left: 10px;
 }
 
 .activities-img {
-  width: 18%;
+  width: 100px;
+  height: 100px;
   float: left;
   margin-right: 30px;
 }
 
 .gardening-img {
-  width: 18%;
+  width: 100px;
+  height: 100px;
   float: right;
   margin-left: 10px;
 }
