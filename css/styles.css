@@ -92,7 +92,7 @@ hr {
 .info-r {
   width: 65%;
   margin: 100px auto 20px auto;
-  text-align: left;
+  text-align: right;
 }
 
 .info-l2 {
@@ -104,7 +104,7 @@ hr {
 .info-r2 {
   width: 65%;
   margin: 100px auto 100px auto;
-  text-align: left;
+  text-align: right;
 }
 
 #contact {
@@ -151,7 +151,7 @@ hr {
   width: 100px;
   height: 100px;
   float: right;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .activities-img {
@@ -165,7 +165,7 @@ hr {
   width: 100px;
   height: 100px;
   float: right;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .julie-img {
