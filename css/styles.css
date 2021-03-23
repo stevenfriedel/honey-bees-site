@@ -18,6 +18,7 @@ h3 {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: #007580;
+  padding-bottom: 5px;
 }
 
 p {
@@ -95,6 +96,10 @@ hr {
   text-align: right;
 }
 
+.info-r p {
+    text-align:left;
+}
+
 .info-l2 {
   width: 65%;
   margin: 100px auto 20px auto;
@@ -107,9 +112,17 @@ hr {
   text-align: right;
 }
 
+.info-r2 p {
+    text-align:left;
+}
+
 #contact {
   width: 90%;
   margin: auto auto 10px;
+}
+
+.contact-text {
+  padding-top: 10px;
 }
 
 .bottom-container {
@@ -167,4 +180,25 @@ hr {
 .julie-img {
   margin-top: 40px;
   width: 80px;
+}
+
+.carousel {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.carousel-inner {
+  background-color: #caf7e3;
+}
+
+.d-block {
+  margin: auto;
+}
+
+.carousel-control-prev:hover {
+  background-color: #caf7e3;
+}
+
+.carousel-control-next:hover {
+  background-color: #caf7e3;
 }
