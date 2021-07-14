@@ -65,7 +65,7 @@ hr {
   height: 50px;
 }
 
-#top-container {
+#about {
   background-color: #caf7e3;
   padding: 40px 50px 40px;
 }
@@ -79,7 +79,7 @@ hr {
   margin: 5px auto 5px auto;
 }
 
-#middle-container {
+#services {
   background-color: #edffec;
   padding: 40px 0 20px;
 }
