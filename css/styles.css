@@ -45,13 +45,13 @@ hr {
   margin: 100px auto;
 }
 
-.navbar-toggler {
-  margin-left: 10px;
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
 }
 
-.header {
-  background-color: #caf7e3;
-  padding: 20px 0;
+.navbar-toggler {
+  margin-left: 10px;
 }
 
 .bee-img {
@@ -67,7 +67,7 @@ hr {
 
 #about {
   background-color: #caf7e3;
-  padding: 40px 50px 40px;
+  padding: 120px 50px 40px;
 }
 
 .intro {
@@ -201,4 +201,10 @@ hr {
 
 .carousel-control-next:hover {
   background-color: #caf7e3;
+}
+
+@media screen and (max-width: 500px) {
+  .carousel {
+    width: 100%;
+  }
 }
