@@ -199,7 +199,7 @@ hr {
   background-color: #caf7e3;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .carousel {
     width: 100%;
   }
