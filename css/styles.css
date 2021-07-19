@@ -153,24 +153,28 @@ hr {
   width: 15%;
   float: left;
   margin-right: 30px;
+  margin-top: 5px;
 }
 
 .map-img {
   width: 15%;
   float: right;
   margin-left: 30px;
+  margin-top: 5px;
 }
 
 .activities-img {
   width: 15%;
   float: left;
   margin-right: 30px;
+  margin-top: 5px;
 }
 
 .gardening-img {
   width: 15%;
   float: right;
   margin-left: 30px;
+  margin-top: 5px;
 }
 
 .julie-img {
@@ -202,6 +206,48 @@ hr {
 @media screen and (max-width: 650px) {
   .carousel {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .carousel {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .carousel {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .carousel {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .carousel {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .carousel {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 1160px) {
+  .carousel {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1366px) and (min-height: 657px) {
+  .carousel {
+    width: 75%;
   }
 }
 
