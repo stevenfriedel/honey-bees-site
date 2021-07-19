@@ -50,10 +50,6 @@ hr {
   font-size: 2rem;
 }
 
-.navbar-toggler {
-  margin-left: 10px;
-}
-
 .bee-img {
   width: 30px;
   height: 30px;
@@ -116,7 +112,7 @@ hr {
     text-align:left;
 }
 
-#contact {
+.contact-info {
   width: 90%;
   margin: auto auto 10px;
 }
@@ -211,6 +207,6 @@ hr {
 
 @media screen and (max-width: 500px) {
   .navbar-brand {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
