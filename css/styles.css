@@ -220,6 +220,18 @@ hr {
   .offer {
     padding-top: 80px;
   }
+  .info-l {
+    width: 80%;
+  }
+  .info-l2 {
+    width: 80%;
+  }
+  .info-r {
+    width: 80%;
+  }
+  .info-r2 {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 650px) {
